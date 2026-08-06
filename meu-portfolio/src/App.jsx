@@ -42,7 +42,7 @@ function App() {
       titulo: "Pão de Queijo da Jossy",
       descricao: "Um sistema de venda de Pães de Queijo, realizados por encomenda, contendo contato por WhatsApp por meio de um robô e um perfil administrativo para o auxílio.",
       tags: ["React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
-      imagem: "/imgs/logo-pao.ico",
+      imagem: "/imgs/logo-pao.png",
       status: "Em Desenvolvimento",
       repositorio: "https://github.com/glimadev19/pao-de-queijo"
     },
