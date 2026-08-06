@@ -35,9 +35,17 @@ function App() {
       descricao: "Um site voltado para corretores e compradores para ver os imóveis que estão disponíveis de forma rápida e prática.",
       tags: ["HTML", "CSS", "JavaScript", "PostgreSQL", "PHP"],
       imagem: "/imgs/brasil-imoveis.png",
-      status: "Em Desenvolvimento",
+      status: "Pausado",
       repositorio: "https://github.com/glimadev19/Brasil-Imoveis"
-    }
+    },
+    {
+      titulo: "Pão de Queijo da Jossy",
+      descricao: "Um sistema de venda de Pães de Queijo, realizados por encomenda, contendo contato por WhatsApp por meio de um robô e um perfil administrativo para o auxílio.",
+      tags: ["React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
+      imagem: "/imgs/logo-pao.ico",
+      status: "Em Desenvolvimento",
+      repositorio: "https://github.com/glimadev19/pao-de-queijo"
+    },
   ];
 
   const habilidades = [
