@@ -52,7 +52,7 @@ function App() {
     {
       categoria: "Back-end",
       icone: <Database size={24} color="#2563eb" />,
-      itens: ["Node.js", "PHP", "PostgreSQL"]
+      itens: ["Node.js", "PHP", "PostgreSQL", "MySQL"]
     },
     {
       categoria: "Front-end",
