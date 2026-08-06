@@ -127,9 +127,12 @@ function App() {
               
               {/* CONTAINER DA IMAGEM COM LÓGICA DIFERENCIADA */}
               <div style={{ 
-                // Aplica fundo azul escuro apenas para Xprocess, os outros ficam com cinza claro
-                backgroundColor: proj.titulo === "Xprocess" ? "#0f172a" : "#f8fafc", 
-                width: '100%', 
+                // Fundo personalizado: Escuro para Xprocess, Amarelo para Pão de Queijo e Cinza Claro para os demais
+                backgroundColor: 
+                  proj.titulo === "Xprocess" ? "#0f172a" : 
+                  proj.titulo === "Pão de Queijo da Jossy" ? "#facc15" : 
+                  "#f8fafc", 
+                width: '100%',
                 height: '220px', 
                 display: 'flex', 
                 alignItems: 'center', 
@@ -142,10 +145,13 @@ function App() {
                   style={{ 
                     width: '100%', 
                     height: '100%', 
-                    // Xprocess: 'contain' para não cortar a logo. Outros: 'cover' para preencher tudo.
-                    objectFit: proj.titulo === "Xprocess" ? 'contain' : 'cover', 
-                    // Recuo de 30px apenas na logo da Xprocess para não tocar nas bordas
-                    padding: proj.titulo === "Xprocess" ? '30px' : '0px'
+                    // Contain para logos (Xprocess e Pão de Queijo), Cover para prints de sites
+                    objectFit: (proj.titulo === "Xprocess" || proj.titulo === "Pão de Queijo da Jossy") ? 'contain' : 'cover', 
+                    // Espaçamento interno para a logo respirar e não encostar nas bordas
+                    padding: 
+                    proj.titulo === "Xprocess" ? '30px' : 
+                    proj.titulo === "Pão de Queijo da Jossy" ? '20px' : 
+                    '0px'
                   }} 
                 />
               </div>
