@@ -144,9 +144,9 @@ function App() {
         <h1 style={{ fontSize: '4.5rem', lineHeight: '1', margin: '0', fontWeight: '800', color: theme.textPrimary }}>
           Olá, eu sou <br /> <span style={{ color: '#2563eb' }}>Gabriel Lima da Silva</span>
         </h1>
-        <p style={{ fontSize: '1.5rem', color: theme.textSecondary, marginTop: '25px', fontWeight: '500' }}>Back-end Developer Júnior</p>
+        <p style={{ fontSize: '1.5rem', color: theme.textSecondary, marginTop: '25px', fontWeight: '500' }}>Full-Stack Developer Júnior</p>
         <p style={{ maxWidth: '650px', color: theme.textSecondary, lineHeight: '1.7', marginTop: '20px', fontSize: '1.1rem' }}>
-          Desenvolvedor apaixonado por criar soluções eficientes e escaláveis. Especializado em desenvolvimento fullstack com experiência em diversas tecnologias.
+          Desenvolvedor apaixonado por criar soluções eficientes e escaláveis. Especializado em desenvolvimento Full-Stack com experiência em diversas tecnologias.
         </p>
         <div style={{ marginTop: '40px', display: 'flex', gap: '15px' }}>
           <a href="#projetos" style={{ textDecoration: 'none' }}>
