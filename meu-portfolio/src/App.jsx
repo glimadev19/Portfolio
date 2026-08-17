@@ -146,7 +146,7 @@ function App() {
         </h1>
         <p style={{ fontSize: '1.5rem', color: theme.textSecondary, marginTop: '25px', fontWeight: '500' }}>Back-end Developer Júnior</p>
         <p style={{ maxWidth: '650px', color: theme.textSecondary, lineHeight: '1.7', marginTop: '20px', fontSize: '1.1rem' }}>
-          Desenvolvedor apaixonado por criar soluções eficientes e escaláveis. Especializado em desenvolvimento back-end com experiência em diversas tecnologias.
+          Desenvolvedor apaixonado por criar soluções eficientes e escaláveis. Especializado em desenvolvimento fullstack com experiência em diversas tecnologias.
         </p>
         <div style={{ marginTop: '40px', display: 'flex', gap: '15px' }}>
           <a href="#projetos" style={{ textDecoration: 'none' }}>
